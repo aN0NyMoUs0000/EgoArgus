@@ -33,14 +33,15 @@ anonymous `egoargus/review-20260526/videos/` object prefix.
 The planned review window is 60 days (`5,184,000` seconds). For a release made
 on 2026-05-26, the corresponding calendar target is 2026-07-26.
 
-## Expected CSV Files
+## Included CSV Files
 
-The review release is expected to include the following CSV files once access to
-the source data is available:
+The review release includes the following metadata CSV files:
 
-- `aggregated_corrected_samples.csv`, containing the multimodal grounded and
-  contradictory samples
-- three scenario-specific CSV files matching the source release names
+- `aggregated_corrected_samples.csv`: 2,000 samples, containing the
+  multimodal grounded and contradictory scenarios
+- `offtopic_samples.csv`: 2,000 video-grounded off-topic samples
+- `ontopic_samples.csv`: 2,000 video-grounded on-topic samples
+- `text_grounded_samples.csv`: 978 text-grounded samples
 
 ## Versioning
 

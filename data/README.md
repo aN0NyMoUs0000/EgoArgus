@@ -1,11 +1,13 @@
 # Data Files
 
-Place the scenario metadata CSV files in this directory.
+Scenario metadata CSV files are stored in this directory.
 
-The source release is expected to include:
+Included files:
 
-- `aggregated_corrected_samples.csv`
-- scenario-specific CSV files for the benchmark conditions
+- `aggregated_corrected_samples.csv`: multimodal grounded and contradictory
+- `offtopic_samples.csv`: video-grounded off-topic
+- `ontopic_samples.csv`: video-grounded on-topic
+- `text_grounded_samples.csv`: text-grounded
 
 Do not commit raw videos to GitHub. Use `metadata/video_manifest.csv` and the
 download script to retrieve hosted video assets.

@@ -15,9 +15,9 @@ assumptions.
 
 ## Data Fields
 
-The exact CSV schema will be documented with the finalized metadata release. The
-release is expected to include identifiers for videos, scenarios, prompts,
-support targets, and split assignments.
+The CSV files include sample identifiers, video identifiers, scenario labels,
+dialogue context, questions, answer options, and the correct answer. Some
+scenario files also include usable start and end timestamps.
 
 ## Video Assets
 
