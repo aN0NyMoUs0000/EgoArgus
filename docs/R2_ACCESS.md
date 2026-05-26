@@ -33,6 +33,18 @@ release on 2026-05-26, the calendar target is 2026-07-26.
    `download_url`, `url_expires_at`, and `access_mode`.
 5. Commit the manifest, not the secret.
 
+The example Worker configuration is in `wrangler.example.toml`. Copy it to
+`wrangler.toml`, set the real bucket name locally, and do not commit secrets.
+
+Deploy outline:
+
+```bash
+cp wrangler.example.toml wrangler.toml
+# edit wrangler.toml bucket_name locally
+npx wrangler deploy
+npx wrangler secret put URL_SIGNING_SECRET
+```
+
 Example:
 
 ```bash

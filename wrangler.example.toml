@@ -1,0 +1,7 @@
+name = "egoargus-review"
+main = "workers/r2_signed_download_worker.js"
+compatibility_date = "2026-05-26"
+
+[[r2_buckets]]
+binding = "EGOARGUS_BUCKET"
+bucket_name = "<R2_BUCKET_NAME>"

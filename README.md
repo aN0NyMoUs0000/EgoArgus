@@ -27,6 +27,9 @@ manifest URLs with a two-month access window, such as Worker-signed R2 download
 URLs. Native R2 presigned URLs are only suitable for short refresh windows
 because their maximum expiry is seven days.
 
+The current video manifest enumerates 344 R2-hosted videos copied under the
+anonymous `egoargus/review-20260526/videos/` object prefix.
+
 The planned review window is 60 days (`5,184,000` seconds). For a release made
 on 2026-05-26, the corresponding calendar target is 2026-07-26.
 
