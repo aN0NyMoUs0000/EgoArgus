@@ -22,7 +22,7 @@ support targets, and split assignments.
 ## Video Assets
 
 Videos are not stored in GitHub. Use `metadata/video_manifest.csv` to map each
-example to an externally hosted object-storage URL. Use
+example to a Cloudflare R2 object key and review download URL. Use
 `scripts/download_videos.py` to fetch and verify assets once the manifest is
 populated.
 
