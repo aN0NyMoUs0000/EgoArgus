@@ -1,0 +1,14 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.zip
+*.tar
+*.tar.gz
+*.tgz
